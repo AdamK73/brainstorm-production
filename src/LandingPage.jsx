@@ -41,7 +41,7 @@ const Navbar = () => {
     <Container maxW="100%" py={1}>
       <Center py="8">
         <Image
-          src="src/assets/logo.png"
+          src="/logo.png"
           alt="Brainstorm logo"
           h={isMobile ? "30px" : "40px"}
           w="auto"
@@ -112,7 +112,7 @@ const HeroSection = () => {
             borderRadius="xl"
             py="4"
             h="10"
-            width="70%"
+            width="100%"
             mb="10"
           >
             Sign In
@@ -139,7 +139,7 @@ const ScreenSection = () => {
         boxShadow="2xl"
       >
         <Image
-          src="/src/assets/screen.png"
+          src="/screen.png"
           alt="Screen Mockup"
           objectFit="cover"
           width="100%"
@@ -356,7 +356,7 @@ const LandingPage = () => {
           left={0}
           right={0}
           bottom={0}
-          bgImage="url('/src/assets/background.png')"
+          bgImage="url('/background.png')"
           bgPos="top"
           bgSize="fill"
           bgRepeat="no-repeat"
